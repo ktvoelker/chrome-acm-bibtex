@@ -1,0 +1,14 @@
+
+{
+  "name": "ACM Digital Library BibTeX Viewer",
+  "version": "1.0",
+  "description": "Show the BibTeX for any ACM Digital Library article inline on the citation page.",
+  "content_scripts": [
+    {
+      "matches": ["http://portal.acm.org.ezproxy.library.wisc.edu/citation.cfm?*", "http://portal.acm.org/citation.cfm?*"],
+      "css": [],
+      "js": ["bibtex.js"]
+    }
+  ]
+}
+
